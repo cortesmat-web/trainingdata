@@ -262,8 +262,8 @@ class IntervalsSync:
     # Only structured sessions in these families are worth fetching
     # per-interval detail for. Walk, strength, yoga, other excluded.
     INTERVAL_SPORT_FAMILIES = {"cycling", "run", "ski", "rowing", "swim"}
-    INTERVAL_SCAN_HOURS = 72    # Only scan recent activities for new intervals
-    INTERVAL_RETENTION_DAYS = 14  # Keep cached intervals for 14 days (DFA drift analysis window)
+    INTERVAL_SCAN_HOURS = 168    # Only scan recent activities for new intervals
+    INTERVAL_RETENTION_DAYS = 60  # Keep cached intervals for 14 days (DFA drift analysis window)
 
     # --- DFA a1 Protocol (v3.99) ---
     # Per-session DFA a1 rollups computed from streams when AlphaHRV Connect IQ field
