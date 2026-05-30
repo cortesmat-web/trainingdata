@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T20:18:16.074971",
+    "last_updated": "2026-05-30T23:46:00.059300",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -275,7 +275,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3161,
+      "steps": 5202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -310,64 +310,64 @@
     "tss_7d_total": 667.0,
     "tss_28d_total": 1887.0,
     "zone_distribution_7d": {
-      "z1_hours": 8.82,
-      "z2_hours": 2.27,
-      "z3_hours": 0.67,
+      "z1_hours": 6.26,
+      "z2_hours": 3.79,
+      "z3_hours": 1.71,
       "z4_plus_hours": 1.58,
       "total_hours": 13.35,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 5.0,
+    "grey_zone_percentage": 12.8,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
     "quality_intensity_percentage": 11.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.83,
+    "easy_time_ratio": 0.75,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 4,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 39931,
-      "z2_seconds": 2416,
+      "z1_seconds": 36194,
+      "z2_seconds": 6153,
       "z3_seconds": 5704,
-      "z1_pct": 83.1,
-      "z2_pct": 5.0,
+      "z1_pct": 75.3,
+      "z2_pct": 12.8,
       "z3_pct": 11.9,
-      "polarization_index": 2.29,
-      "classification": "Polarized",
+      "polarization_index": null,
+      "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 36100,
-      "z2_seconds": 2416,
+      "z1_seconds": 32363,
+      "z2_seconds": 6153,
       "z3_seconds": 5704,
-      "z1_pct": 81.6,
-      "z2_pct": 5.5,
+      "z1_pct": 73.2,
+      "z2_pct": 13.9,
       "z3_pct": 12.9,
-      "polarization_index": 2.28,
-      "classification": "Polarized",
+      "polarization_index": null,
+      "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 115332,
-      "z2_seconds": 9657,
+      "z1_seconds": 104891,
+      "z2_seconds": 20098,
       "z3_seconds": 16406,
-      "z1_pct": 81.6,
-      "z2_pct": 6.8,
+      "z1_pct": 74.2,
+      "z2_pct": 14.2,
       "z3_pct": 11.6,
-      "polarization_index": 2.14,
-      "classification": "Polarized",
+      "polarization_index": null,
+      "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 104328,
-      "z2_seconds": 7020,
+      "z1_seconds": 93887,
+      "z2_seconds": 17461,
       "z3_seconds": 14435,
-      "z1_pct": 82.9,
-      "z2_pct": 5.6,
+      "z1_pct": 74.6,
+      "z2_pct": 13.9,
       "z3_pct": 11.5,
-      "polarization_index": 2.23,
-      "classification": "Polarized",
+      "polarization_index": null,
+      "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
@@ -401,11 +401,11 @@
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "Polarized",
-        "classification_28d": "Polarized",
-        "pi_7d": 2.29,
-        "pi_28d": 2.14,
-        "pi_delta": 0.15,
+        "classification_7d": "Pyramidal",
+        "classification_28d": "Pyramidal",
+        "pi_7d": null,
+        "pi_28d": null,
+        "pi_delta": null,
         "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -605,7 +605,7 @@
         "stream_1": {
           "ctl_slope": -0.2,
           "acwr_trend": "falling",
-          "hard_day_pattern": 3,
+          "hard_day_pattern": 3.3,
           "weeks_available": 4
         },
         "stream_2": {
@@ -651,7 +651,7 @@
     "p_max": 1547,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T20:18:16.073735",
+    "calculation_timestamp": "2026-05-30T23:46:00.058066",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -722,8 +722,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 7827,
-          "z2_time": 3909,
+          "z1_time": 4400,
+          "z2_time": 7336,
           "z3_time": 224,
           "z4_time": 209,
           "z5_time": 444,
@@ -731,9 +731,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 8233,
-          "z2_time": 2687,
-          "z3_time": 561,
+          "z1_time": 5404,
+          "z2_time": 4395,
+          "z3_time": 1682,
           "z4_time": 708,
           "z5_time": 366,
           "z6_time": 262,
@@ -895,8 +895,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 4931,
-          "z2_time": 1887,
+          "z1_time": 2830,
+          "z2_time": 3988,
           "z3_time": 213,
           "z4_time": 76,
           "z5_time": 47,
@@ -904,9 +904,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 4322,
-          "z2_time": 1758,
-          "z3_time": 465,
+          "z1_time": 2354,
+          "z2_time": 2951,
+          "z3_time": 1240,
           "z4_time": 287,
           "z5_time": 141,
           "z6_time": 88,
@@ -1008,8 +1008,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3306,
-          "z2_time": 2156,
+          "z1_time": 1867,
+          "z2_time": 3595,
           "z3_time": 455,
           "z4_time": 82,
           "z5_time": 0,
@@ -1017,9 +1017,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3047,
-          "z2_time": 1690,
-          "z3_time": 559,
+          "z1_time": 1756,
+          "z2_time": 2154,
+          "z3_time": 1386,
           "z4_time": 412,
           "z5_time": 165,
           "z6_time": 90,
@@ -1121,8 +1121,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 6260,
-          "z2_time": 556,
+          "z1_time": 4768,
+          "z2_time": 2048,
           "z3_time": 64,
           "z4_time": 0,
           "z5_time": 0,
@@ -1130,9 +1130,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 5077,
-          "z2_time": 885,
-          "z3_time": 297,
+          "z1_time": 3799,
+          "z2_time": 1765,
+          "z3_time": 695,
           "z4_time": 290,
           "z5_time": 165,
           "z6_time": 123,
@@ -1243,9 +1243,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 423,
-          "z2_time": 6,
-          "z3_time": 1,
+          "z1_time": 402,
+          "z2_time": 24,
+          "z3_time": 4,
           "z4_time": 1,
           "z5_time": 0,
           "z6_time": 0,
@@ -1407,8 +1407,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 5680,
-          "z2_time": 1837,
+          "z1_time": 2809,
+          "z2_time": 4708,
           "z3_time": 1038,
           "z4_time": 1349,
           "z5_time": 560,
@@ -1416,9 +1416,9 @@
           "z7_time": 18
         },
         "power_zones": {
-          "z1_time": 6834,
-          "z2_time": 1138,
-          "z3_time": 533,
+          "z1_time": 5005,
+          "z2_time": 2354,
+          "z3_time": 1146,
           "z4_time": 1452,
           "z5_time": 579,
           "z6_time": 191,
@@ -1520,8 +1520,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3531,
-          "z2_time": 4212,
+          "z1_time": 1698,
+          "z2_time": 6045,
           "z3_time": 677,
           "z4_time": 284,
           "z5_time": 90,
@@ -1529,9 +1529,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 5527,
-          "z2_time": 1560,
-          "z3_time": 439,
+          "z1_time": 2942,
+          "z2_time": 3511,
+          "z3_time": 1073,
           "z4_time": 470,
           "z5_time": 348,
           "z6_time": 317,
@@ -1633,8 +1633,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 4429,
-          "z2_time": 2019,
+          "z1_time": 1885,
+          "z2_time": 4563,
           "z3_time": 16,
           "z4_time": 0,
           "z5_time": 0,
@@ -1642,9 +1642,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3890,
-          "z2_time": 1853,
-          "z3_time": 309,
+          "z1_time": 1482,
+          "z2_time": 3607,
+          "z3_time": 963,
           "z4_time": 237,
           "z5_time": 85,
           "z6_time": 64,
@@ -1746,8 +1746,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 4443,
-          "z2_time": 14,
+          "z1_time": 4073,
+          "z2_time": 384,
           "z3_time": 0,
           "z4_time": 0,
           "z5_time": 0,
@@ -1755,9 +1755,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3901,
-          "z2_time": 373,
-          "z3_time": 81,
+          "z1_time": 2916,
+          "z2_time": 1198,
+          "z3_time": 241,
           "z4_time": 73,
           "z5_time": 17,
           "z6_time": 5,
@@ -1919,8 +1919,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3466,
-          "z2_time": 1360,
+          "z1_time": 1654,
+          "z2_time": 3172,
           "z3_time": 155,
           "z4_time": 136,
           "z5_time": 66,
@@ -1928,9 +1928,9 @@
           "z7_time": 12
         },
         "power_zones": {
-          "z1_time": 4059,
-          "z2_time": 751,
-          "z3_time": 118,
+          "z1_time": 2905,
+          "z2_time": 1619,
+          "z3_time": 404,
           "z4_time": 82,
           "z5_time": 48,
           "z6_time": 40,
@@ -2032,10 +2032,10 @@
       "effort_response": "positive",
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 103,
-          "z2_time": 193,
-          "z3_time": 1003,
-          "z4_time": 95,
+          "z1_time": 79,
+          "z2_time": 217,
+          "z3_time": 991,
+          "z4_time": 107,
           "z5_time": 33,
           "z6_time": 36,
           "z7_time": 0
@@ -2205,8 +2205,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3863,
-          "z2_time": 746,
+          "z1_time": 3120,
+          "z2_time": 1489,
           "z3_time": 57,
           "z4_time": 9,
           "z5_time": 0,
@@ -2214,9 +2214,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3615,
-          "z2_time": 482,
-          "z3_time": 136,
+          "z1_time": 2850,
+          "z2_time": 1001,
+          "z3_time": 382,
           "z4_time": 170,
           "z5_time": 146,
           "z6_time": 81,
@@ -2318,8 +2318,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 5553,
-          "z2_time": 182,
+          "z1_time": 5033,
+          "z2_time": 702,
           "z3_time": 16,
           "z4_time": 0,
           "z5_time": 0,
@@ -2327,9 +2327,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 5020,
-          "z2_time": 383,
-          "z3_time": 116,
+          "z1_time": 3876,
+          "z2_time": 1363,
+          "z3_time": 280,
           "z4_time": 116,
           "z5_time": 64,
           "z6_time": 31,
@@ -2491,8 +2491,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3075,
-          "z2_time": 2121,
+          "z1_time": 1680,
+          "z2_time": 3516,
           "z3_time": 327,
           "z4_time": 2028,
           "z5_time": 324,
@@ -2500,9 +2500,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3371,
-          "z2_time": 1464,
-          "z3_time": 1088,
+          "z1_time": 1987,
+          "z2_time": 2219,
+          "z3_time": 1717,
           "z4_time": 1647,
           "z5_time": 201,
           "z6_time": 69,
@@ -2604,10 +2604,10 @@
       "effort_response": "positive",
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 199,
-          "z2_time": 127,
-          "z3_time": 1142,
-          "z4_time": 39,
+          "z1_time": 131,
+          "z2_time": 195,
+          "z3_time": 1112,
+          "z4_time": 69,
           "z5_time": 3,
           "z6_time": 17,
           "z7_time": 1
@@ -2717,8 +2717,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3540,
-          "z2_time": 1947,
+          "z1_time": 2146,
+          "z2_time": 3341,
           "z3_time": 469,
           "z4_time": 545,
           "z5_time": 193,
@@ -2726,9 +2726,9 @@
           "z7_time": 65
         },
         "power_zones": {
-          "z1_time": 4682,
-          "z2_time": 1072,
-          "z3_time": 319,
+          "z1_time": 3434,
+          "z2_time": 1810,
+          "z3_time": 829,
           "z4_time": 346,
           "z5_time": 524,
           "z6_time": 302,
@@ -2830,10 +2830,10 @@
       "effort_response": "positive",
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 380,
-          "z2_time": 877,
-          "z3_time": 179,
-          "z4_time": 221,
+          "z1_time": 89,
+          "z2_time": 1168,
+          "z3_time": 159,
+          "z4_time": 241,
           "z5_time": 0,
           "z6_time": 0,
           "z7_time": 0
@@ -3003,8 +3003,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 4037,
-          "z2_time": 2599,
+          "z1_time": 2914,
+          "z2_time": 3722,
           "z3_time": 172,
           "z4_time": 73,
           "z5_time": 7,
@@ -3012,9 +3012,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 4268,
-          "z2_time": 1841,
-          "z3_time": 412,
+          "z1_time": 2881,
+          "z2_time": 2355,
+          "z3_time": 1285,
           "z4_time": 228,
           "z5_time": 79,
           "z6_time": 48,
@@ -3116,8 +3116,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3346,
-          "z2_time": 3711,
+          "z1_time": 1501,
+          "z2_time": 5556,
           "z3_time": 151,
           "z4_time": 12,
           "z5_time": 0,
@@ -3125,9 +3125,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 3257,
-          "z2_time": 2707,
-          "z3_time": 667,
+          "z1_time": 1680,
+          "z2_time": 2887,
+          "z3_time": 2064,
           "z4_time": 435,
           "z5_time": 87,
           "z6_time": 58,
@@ -3229,8 +3229,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 2568,
-          "z2_time": 1064,
+          "z1_time": 1872,
+          "z2_time": 1760,
           "z3_time": 364,
           "z4_time": 3,
           "z5_time": 0,
@@ -3238,9 +3238,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 2424,
-          "z2_time": 773,
-          "z3_time": 341,
+          "z1_time": 1537,
+          "z2_time": 1258,
+          "z3_time": 743,
           "z4_time": 292,
           "z5_time": 120,
           "z6_time": 39,
@@ -3342,8 +3342,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 6039,
-          "z2_time": 671,
+          "z1_time": 4675,
+          "z2_time": 2035,
           "z3_time": 14,
           "z4_time": 0,
           "z5_time": 0,
@@ -3351,9 +3351,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 5299,
-          "z2_time": 740,
-          "z3_time": 272,
+          "z1_time": 3514,
+          "z2_time": 2158,
+          "z3_time": 639,
           "z4_time": 247,
           "z5_time": 86,
           "z6_time": 66,
@@ -3455,8 +3455,8 @@
       "effort_response": null,
       "zone_distribution": {
         "hr_zones": {
-          "z1_time": 3375,
-          "z2_time": 1711,
+          "z1_time": 2412,
+          "z2_time": 2674,
           "z3_time": 420,
           "z4_time": 445,
           "z5_time": 118,
@@ -3464,9 +3464,9 @@
           "z7_time": 0
         },
         "power_zones": {
-          "z1_time": 4161,
-          "z2_time": 755,
-          "z3_time": 306,
+          "z1_time": 3258,
+          "z2_time": 1276,
+          "z3_time": 688,
           "z4_time": 424,
           "z5_time": 178,
           "z6_time": 177,
@@ -3797,7 +3797,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3161,
+      "steps": 5202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
