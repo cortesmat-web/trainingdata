@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T18:38:07.223653",
+  "generated_at": "2026-06-04T22:57:08.886951",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -1534,6 +1534,72 @@
           "zone": 1,
           "training_load": 0.0011192046,
           "decoupling": "NaN"
+        }
+      ]
+    },
+    {
+      "activity_id": "i154410496",
+      "date": "2026-06-04",
+      "type": "Ride",
+      "name": "San Isidro - Aerobico extensivo",
+      "interval_summary": [
+        "1x 27m22s 149w",
+        "1x 30m1s 208w",
+        "1x 33m12s 183w",
+        "1x 6m53s 88w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1642s@149w71rpm",
+          "duration_secs": 1642,
+          "avg_power": 149,
+          "max_power": 604,
+          "avg_hr": 107,
+          "max_hr": 125,
+          "avg_cadence": 70.92919,
+          "zone": 1,
+          "training_load": 12.067821,
+          "decoupling": 4.218609
+        },
+        {
+          "type": "WORK",
+          "label": "1801s@208w89rpm",
+          "duration_secs": 1801,
+          "avg_power": 208,
+          "max_power": 441,
+          "avg_hr": 123,
+          "max_hr": 144,
+          "avg_cadence": 88.99834,
+          "zone": 2,
+          "training_load": 23.8405,
+          "decoupling": -3.1447814
+        },
+        {
+          "type": "WORK",
+          "label": "1992s@183w76rpm",
+          "duration_secs": 1992,
+          "avg_power": 183,
+          "max_power": 709,
+          "avg_hr": 127,
+          "max_hr": 157,
+          "avg_cadence": 76.432816,
+          "zone": 2,
+          "training_load": 26.839085,
+          "decoupling": 10.383819
+        },
+        {
+          "type": "WORK",
+          "label": "413s@88w49rpm",
+          "duration_secs": 413,
+          "avg_power": 88,
+          "max_power": 855,
+          "avg_hr": 105,
+          "max_hr": 124,
+          "avg_cadence": 49.136253,
+          "zone": 1,
+          "training_load": 1.6501446,
+          "decoupling": 9.654295
         }
       ]
     }
