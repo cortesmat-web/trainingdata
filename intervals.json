@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T18:26:23.364869",
+  "generated_at": "2026-06-05T22:44:32.782666",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -1600,6 +1600,27 @@
           "zone": 1,
           "training_load": 1.6501446,
           "decoupling": 9.654295
+        }
+      ]
+    },
+    {
+      "activity_id": "i154665172",
+      "date": "2026-06-05",
+      "type": "Ride",
+      "name": "San Isidro Road Cycling",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3597,
+          "avg_power": 182,
+          "max_power": 525,
+          "avg_hr": 119,
+          "max_hr": 140,
+          "avg_cadence": 81.324715,
+          "zone": 2,
+          "training_load": 40.350323,
+          "decoupling": 0.98879635
         }
       ]
     }
