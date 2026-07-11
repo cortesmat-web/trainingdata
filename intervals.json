@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T18:51:24.145916",
+  "generated_at": "2026-07-11T20:01:36.312084",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -4832,6 +4832,78 @@
           "zone": 1,
           "training_load": 56.954548,
           "decoupling": -1.8529537
+        }
+      ]
+    },
+    {
+      "activity_id": "i164822406",
+      "date": "2026-07-11",
+      "type": "Ride",
+      "name": "San Isidro Road Cycling",
+      "interval_summary": [
+        "1x 57m3s 167w",
+        "1x 30m10s 245w",
+        "1x 9m1s 251w",
+        "1x 1h5m 87w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3423s@167w83rpm",
+          "duration_secs": 3423,
+          "avg_power": 167,
+          "max_power": 641,
+          "avg_hr": 121,
+          "max_hr": 154,
+          "avg_cadence": 83.32777,
+          "zone": 1,
+          "training_load": 35.39054,
+          "decoupling": 11.79114
+        },
+        {
+          "type": "WORK",
+          "label": "1810s@245w85rpm",
+          "duration_secs": 1810,
+          "avg_power": 245,
+          "max_power": 1100,
+          "avg_hr": 143,
+          "max_hr": 171,
+          "avg_cadence": 84.80663,
+          "zone": 3,
+          "training_load": 47.08637,
+          "decoupling": -4.700303
+        },
+        {
+          "type": "WORK",
+          "label": "541s@251w80rpm",
+          "duration_secs": 541,
+          "avg_power": 251,
+          "max_power": 628,
+          "avg_hr": 154,
+          "max_hr": 168,
+          "avg_cadence": 80.32348,
+          "zone": 3,
+          "training_load": 13.060719,
+          "decoupling": -9.869086
+        },
+        {
+          "type": "WORK",
+          "label": "3931s@87w46rpm",
+          "duration_secs": 3931,
+          "avg_power": 87,
+          "max_power": 993,
+          "avg_hr": 109,
+          "max_hr": 143,
+          "avg_cadence": 45.845814,
+          "zone": 1,
+          "training_load": 12.403753
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 104,
+          "max_hr": 104,
+          "zone": 1
         }
       ]
     }
