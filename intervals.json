@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T23:33:47.029841",
+  "generated_at": "2026-07-14T01:03:17.317203",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -411,119 +411,6 @@
           "zone": 1,
           "training_load": 10.038174,
           "decoupling": 2.6829884
-        }
-      ]
-    },
-    {
-      "activity_id": "i148312245",
-      "date": "2026-05-14",
-      "type": "Ride",
-      "name": "San Isidro - 20/25\u00b4 Transferencia al Umbral",
-      "interval_summary": [
-        "1x 10m1s 166w",
-        "1x 20m 233w",
-        "1x 20m 291w",
-        "1x 25m 291w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "601s@166w75rpm",
-          "duration_secs": 601,
-          "avg_power": 166,
-          "max_power": 449,
-          "avg_hr": 114,
-          "max_hr": 143,
-          "avg_cadence": 74.797005,
-          "zone": 1,
-          "training_load": 7.3005624,
-          "decoupling": -3.2012901
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 725,
-          "avg_power": 197,
-          "max_power": 386,
-          "avg_hr": 123,
-          "max_hr": 137,
-          "avg_cadence": 82.98198,
-          "zone": 1,
-          "training_load": 8.540583
-        },
-        {
-          "type": "WORK",
-          "label": "1200s@233w90rpm",
-          "duration_secs": 1200,
-          "avg_power": 233,
-          "max_power": 461,
-          "avg_hr": 134,
-          "max_hr": 150,
-          "avg_cadence": 89.97833,
-          "zone": 2,
-          "training_load": 19.318766,
-          "decoupling": 2.4444263
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1008,
-          "avg_power": 187,
-          "max_power": 376,
-          "avg_hr": 125,
-          "max_hr": 140,
-          "avg_cadence": 78.9881,
-          "zone": 1,
-          "training_load": 12.244537,
-          "decoupling": 4.767028
-        },
-        {
-          "type": "WORK",
-          "label": "1200s@291w92rpm",
-          "duration_secs": 1200,
-          "avg_power": 291,
-          "max_power": 612,
-          "avg_hr": 152,
-          "max_hr": 166,
-          "avg_cadence": 91.863335,
-          "zone": 4,
-          "training_load": 29.574749,
-          "decoupling": 4.472425
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 120,
-          "avg_power": 41,
-          "max_power": 280,
-          "avg_hr": 118,
-          "max_hr": 154,
-          "avg_cadence": 25.591667,
-          "zone": 1,
-          "training_load": 0.6994103,
-          "decoupling": -17.41226
-        },
-        {
-          "type": "WORK",
-          "label": "1500s@291w88rpm",
-          "duration_secs": 1500,
-          "avg_power": 291,
-          "max_power": 417,
-          "avg_hr": 156,
-          "max_hr": 164,
-          "avg_cadence": 88.244,
-          "zone": 4,
-          "training_load": 36.71566,
-          "decoupling": 1.8225733
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1609,
-          "avg_power": 103,
-          "max_power": 1183,
-          "avg_hr": 117,
-          "max_hr": 162,
-          "avg_cadence": 43.48723,
-          "zone": 1,
-          "training_load": 13.818304,
-          "decoupling": -8.500418
         }
       ]
     },
