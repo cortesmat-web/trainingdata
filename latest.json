@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T12:14:48.126528",
+    "last_updated": "2026-07-27T15:15:10.768351",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -655,7 +655,7 @@
     "p_max": 1493,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-27T12:14:48.125321",
+    "calculation_timestamp": "2026-07-27T15:15:10.767235",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3166,9 +3166,9 @@
       "planned_tss": 127,
       "duration_hours": 2.01,
       "duration_formatted": "2h30s",
-      "workout_summary": "10m | 20m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 8m | 3\u00d710s @850W / 3m rec | 39m",
+      "workout_summary": "15m | 20m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 8m | 3\u00d710s @850W / 3m rec | 34m",
       "has_terrain": false,
-      "description": "Warmup\n\n-10m ramp Z1 power=3s\n-20m ramp Z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-8m z2 power=3s\n\n3x\n-10s 800-900w power=3s\n-3m z2 power=3s\n\n-39m z2 power=3s"
+      "description": "Warmup\n\n-15m ramp Z1 power=3s\n-20m ramp Z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-8m z2 power=3s\n\n3x\n-10s 800-900w power=3s\n-3m z2 power=3s\n\n-34m z2 power=3s"
     }
   ],
   "workout_summary_stats": {
