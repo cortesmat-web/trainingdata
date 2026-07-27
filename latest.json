@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T08:46:06.659237",
+    "last_updated": "2026-07-27T12:14:48.126528",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -113,30 +113,30 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 60.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 65.0,
+        "baseline_7d": 61.4,
+        "delta_pct": 5.9
       },
       "rhr": {
         "status": "green",
-        "value": 47,
-        "baseline_7d": 44.4,
-        "delta_bpm": 2.6
+        "value": 46,
+        "baseline_7d": 44.3,
+        "delta_bpm": 1.7
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.82,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 0.82
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.92
+        "status": "green",
+        "value": 1.02,
+        "value_yesterday": 0.91
       },
       "tsb": {
         "status": "green",
@@ -144,10 +144,10 @@
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -157,7 +157,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -248,12 +248,12 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 47,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 46,
+      "hrv": 65.0,
+      "sleep_quality": 3,
+      "sleep_hours": 8.82,
+      "sleep_formatted": "8h49m",
+      "sleep_score": 75.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -270,7 +270,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 71,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -295,14 +295,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.92,
-    "hrv_baseline_7d": 60.8,
-    "rhr_baseline_7d": 44.4,
-    "hrv_baseline_28d": 62.4,
+    "recovery_index": 1.02,
+    "recovery_index_yesterday": 0.91,
+    "hrv_baseline_7d": 61.4,
+    "rhr_baseline_7d": 44.3,
+    "hrv_baseline_28d": 62.5,
     "rhr_baseline_28d": 45.6,
-    "latest_hrv": null,
-    "latest_rhr": 47,
+    "latest_hrv": 65.0,
+    "latest_rhr": 46,
     "acwr": 0.82,
     "acwr_interpretation": "optimal",
     "monotony": 0.71,
@@ -314,7 +314,7 @@
     "multi_sport_detected": true,
     "strain": 232.0,
     "stress_tolerance": 3.3,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.2,
     "tss_7d_total": 327.0,
     "tss_28d_total": 1587.0,
     "zone_distribution_7d": {
@@ -615,7 +615,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.72,
+          "planned_tss_delta": 0.74,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
@@ -655,9 +655,9 @@
     "p_max": 1493,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-27T08:46:06.658036",
+    "calculation_timestamp": "2026-07-27T12:14:48.125321",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 22,
@@ -3106,13 +3106,13 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 47,
-      "hrv_rmssd": null,
+      "resting_hr": 46,
+      "hrv_rmssd": 65.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.82,
+      "sleep_formatted": "8h49m",
+      "sleep_quality": 3,
+      "sleep_score": 75.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3132,7 +3132,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 71,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3163,12 +3163,12 @@
       "name": "Microbursts 30/30",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 121,
-      "duration_hours": 1.86,
-      "duration_formatted": "1h51m30s",
-      "workout_summary": "10m | 20m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 8m | 3\u00d710s @850W / 3m rec | 30m",
+      "planned_tss": 127,
+      "duration_hours": 2.01,
+      "duration_formatted": "2h30s",
+      "workout_summary": "10m | 20m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 5m | 8\u00d730s @405W / 30s rec | 8m | 3\u00d710s @850W / 3m rec | 39m",
       "has_terrain": false,
-      "description": "Warmup\n\n-10m ramp Z1 power=3s\n-20m ramp Z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-8m z2 power=3s\n\n3x\n-10s 800-900w power=3s\n-3m z2 power=3s\n\n-30m z2 power=3s"
+      "description": "Warmup\n\n-10m ramp Z1 power=3s\n-20m ramp Z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-5m z2 power=3s\n\n8x\n-30s 390-420w power=3s\n-30s 190-220w power=3s\n\n-8m z2 power=3s\n\n3x\n-10s 800-900w power=3s\n-3m z2 power=3s\n\n-39m z2 power=3s"
     }
   ],
   "workout_summary_stats": {
@@ -3184,8 +3184,8 @@
     "total_training_formatted": "5h51m",
     "total_tss": 327,
     "activities_count": 4,
-    "avg_hrv": 60.8,
-    "avg_resting_hr": 44.4
+    "avg_hrv": 61.4,
+    "avg_resting_hr": 44.3
   },
   "race_calendar": {
     "next_race": null,
