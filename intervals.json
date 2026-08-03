@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T20:18:15.244227",
+  "generated_at": "2026-08-03T21:37:22.778196",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -5240,6 +5240,27 @@
           "avg_hr": 100,
           "max_hr": 100,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i172179308",
+      "date": "2026-08-03",
+      "type": "Ride",
+      "name": "Base",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3936,
+          "avg_power": 163,
+          "max_power": 541,
+          "avg_hr": 109,
+          "max_hr": 127,
+          "avg_cadence": 75.941284,
+          "zone": 1,
+          "training_load": 36.505722,
+          "decoupling": 1.9080076
         }
       ]
     }
