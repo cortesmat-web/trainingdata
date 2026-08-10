@@ -65,12 +65,12 @@
       "total_training_hours": 6.6,
       "total_training_formatted": "6h35m",
       "total_activities": 5,
-      "total_tss": 327
+      "total_tss": 355
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-10T23:07:42.408680",
+    "last_updated": "2026-08-10T23:49:38.068577",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -121,7 +121,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.87
+        "value": 0.92
       },
       "ri": {
         "status": "green",
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 6.8
+        "value": 3.8
       }
     },
     "signal_summary": {
@@ -178,7 +178,7 @@
       "VirtualRide": {
         "duration_decimal_hours": 1.0,
         "count": 1,
-        "tss": 12,
+        "tss": 40,
         "distance_km": 0.0,
         "display": {
           "distance": {
@@ -203,10 +203,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 56.95,
-      "atl": 50.1,
-      "tsb": 6.85,
-      "ramp_rate": -1.94,
+      "ctl": 57.61,
+      "atl": 53.82,
+      "tsb": 3.79,
+      "ramp_rate": -1.28,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -292,20 +292,20 @@
     "rhr_baseline_28d": 44.2,
     "latest_hrv": 57.0,
     "latest_rhr": 44,
-    "acwr": 0.87,
+    "acwr": 0.92,
     "acwr_interpretation": "optimal",
-    "monotony": 0.63,
-    "monotony_interpretation": "normal (primary sport 0.61, total 0.63 inflated by multi-sport)",
+    "monotony": 0.7,
+    "monotony_interpretation": "normal (primary sport 0.68, total 0.7 inflated by multi-sport)",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.61,
-    "primary_sport_tss_7d": 321.0,
-    "effective_monotony": 0.61,
+    "primary_sport_monotony": 0.68,
+    "primary_sport_tss_7d": 349.0,
+    "effective_monotony": 0.68,
     "multi_sport_detected": true,
-    "strain": 206.0,
-    "stress_tolerance": 3.3,
-    "load_recovery_ratio": 3.4,
-    "tss_7d_total": 327.0,
-    "tss_28d_total": 1511.0,
+    "strain": 248.0,
+    "stress_tolerance": 3.5,
+    "load_recovery_ratio": 3.7,
+    "tss_7d_total": 355.0,
+    "tss_28d_total": 1539.0,
     "zone_distribution_7d": {
       "z1_hours": 3.84,
       "z2_hours": 1.05,
@@ -653,7 +653,7 @@
     "p_max": 1486,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-10T23:07:42.407775",
+    "calculation_timestamp": "2026-08-10T23:49:38.067292",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -674,7 +674,7 @@
       "name": "Indoor Cycling",
       "duration_hours": 1.0,
       "distance_km": 0.0,
-      "tss": 12,
+      "tss": 40,
       "intensity_factor": 34.51613,
       "avg_power": 101,
       "normalized_power": 107,
@@ -2954,7 +2954,7 @@
   "weekly_summary": {
     "total_training_hours": 6.6,
     "total_training_formatted": "6h35m",
-    "total_tss": 327,
+    "total_tss": 355,
     "activities_count": 5,
     "avg_hrv": 58.4,
     "avg_resting_hr": 43.9
