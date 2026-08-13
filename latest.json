@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-13T13:44:12.553769",
+    "last_updated": "2026-08-13T14:44:57.835912",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -653,7 +653,7 @@
     "p_max": 1484,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-13T13:44:12.552496",
+    "calculation_timestamp": "2026-08-13T14:44:57.834707",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2927,7 +2927,7 @@
       "duration_formatted": "1h44m",
       "workout_summary": "22m @168W | 19m @250W | 1m @355W | 10m @165W | 10\u00d715s @450W / 45s rec | 6m @165W | 10\u00d715s @450W / 45s rec | 6m @165W | 10\u00d715s @450W / 45s rec | 10m @153W",
       "has_terrain": false,
-      "description": "- 22m ramp 136-200w\n- 19m 245-255w\n- 1m 350-360w\n- 10m 150-180w\n\n10x\n- 15s 440-460w\n- 45s 275-290w\n\n- 6m 150-180w\n\n10x\n- 15s 440-460w\n- 45s 275-290w\n\n- 6m 150-180w\n\n10x\n- 15s 440-460w\n- 45s 275-290w\n\n- 10m 136-170w"
+      "description": "- 22m ramp 136-200w power=3s\n- 19m 245-255w power=3s\n- 1m 350-360w power=3s\n- 10m 150-180w power=3s\n\n10x\n- 15s 440-460w power=3s\n- 45s 275-290w power=3s\n\n- 6m 150-180w power=3s\n\n10x\n- 15s 440-460w power=3s\n- 45s 275-290w power=3s\n\n- 6m 150-180w power=3s\n\n10x\n- 15s 440-460w power=3s\n- 45s 275-290w power=3s\n\n- 10m 136-170w power=3s"
     }
   ],
   "workout_summary_stats": {
