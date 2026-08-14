@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-14T10:30:58.562031",
+    "last_updated": "2026-08-14T11:26:35.429022",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -194,10 +194,10 @@
         "duration_decimal_hours": 1.0,
         "count": 1,
         "tss": 40,
-        "distance_km": 0.0,
+        "distance_km": 34.5,
         "display": {
           "distance": {
-            "value": 0.0,
+            "value": 34.5,
             "unit": "km"
           }
         }
@@ -673,7 +673,7 @@
     "p_max": 1484,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-14T10:30:58.560849",
+    "calculation_timestamp": "2026-08-14T11:26:35.427895",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1092,7 +1092,7 @@
       "type": "VirtualRide",
       "name": "Indoor Cycling",
       "duration_hours": 1.0,
-      "distance_km": 0.0,
+      "distance_km": 34.5,
       "tss": 40,
       "intensity_factor": 34.51613,
       "avg_power": 101,
@@ -1100,7 +1100,7 @@
       "avg_hr": 93,
       "max_hr": 112,
       "avg_cadence": 81.46659,
-      "avg_speed": null,
+      "avg_speed": 34.4,
       "avg_speed_unit": "KPH",
       "max_speed": null,
       "max_speed_unit": "KPH",
@@ -1122,11 +1122,14 @@
       "elevation_m": null,
       "display": {
         "distance": {
-          "value": 0.0,
+          "value": 34.5,
           "unit": "km"
         },
         "elevation": null,
-        "avg_speed": null,
+        "avg_speed": {
+          "value": 34.4,
+          "unit": "km/h"
+        },
         "max_speed": null
       },
       "feel": null,
