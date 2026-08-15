@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:16:20.149035",
+  "generated_at": "2026-08-15T19:42:39.448162",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -5918,6 +5918,66 @@
           "zone": 1,
           "training_load": 13.787621,
           "decoupling": -25.966688
+        }
+      ]
+    },
+    {
+      "activity_id": "i176201245",
+      "date": "2026-08-15",
+      "type": "Ride",
+      "name": "San Isidro Road Cycling",
+      "interval_summary": [
+        "1x 17m 210w",
+        "1x 20m52s 279w",
+        "1x 1h33m 166w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1020s@210w76rpm",
+          "duration_secs": 1020,
+          "avg_power": 210,
+          "max_power": 923,
+          "avg_hr": 127,
+          "max_hr": 150,
+          "avg_cadence": 75.55996,
+          "zone": 2,
+          "training_load": 16.707905,
+          "decoupling": -1.8697287
+        },
+        {
+          "type": "WORK",
+          "label": "1252s@279w83rpm",
+          "duration_secs": 1252,
+          "avg_power": 279,
+          "max_power": 1196,
+          "avg_hr": 152,
+          "max_hr": 171,
+          "avg_cadence": 82.932106,
+          "zone": 3,
+          "training_load": 38.224796,
+          "decoupling": 7.7662816
+        },
+        {
+          "type": "WORK",
+          "label": "5580s@166w67rpm",
+          "duration_secs": 5580,
+          "avg_power": 166,
+          "max_power": 863,
+          "avg_hr": 121,
+          "max_hr": 156,
+          "avg_cadence": 66.865654,
+          "zone": 1,
+          "training_load": 68.963356,
+          "decoupling": -14.968726
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 100,
+          "max_hr": 100,
+          "zone": 1,
+          "training_load": 0.0019912706
         }
       ]
     }
