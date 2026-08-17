@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-17T13:59:21.361277",
+    "last_updated": "2026-08-17T14:32:02.319994",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -601,14 +601,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.46,
+          "planned_tss_delta": 0.86,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 0.61,
-          "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.8
+          "next_week_load": 1.02,
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -641,7 +641,7 @@
     "p_max": 1484,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-17T13:59:21.360462",
+    "calculation_timestamp": "2026-08-17T14:32:02.319144",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3000,6 +3000,19 @@
       "description": "- 40m ramp 130-190w power=3s\n- 12m 240-255w power=3s\n- 1m 345-360w power=3s\n- 8m 150-175w power=3s\n\n8x\n- 15s 440-455w power=3s\n- 45s 270-285w power=3s\n\n- 6m 150-175w power=3s\n\n8x\n- 15s 440-455w power=3s\n- 45s 270-285w power=3s\n\n- 40m 130-160w power=3s"
     },
     {
+      "id": 129786270,
+      "date": "2026-08-22",
+      "name": "STVZ",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 180,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 129784592,
       "date": "2026-08-24",
       "name": "Aerobico",
@@ -3048,6 +3061,19 @@
       "duration_formatted": "2h6m",
       "workout_summary": "30m @165W | 19m @255W | 1m @358W | 10m @165W | 10m @268W | 5\u00d715s @450W / 45s rec | 6m @165W | 10m @268W | 5\u00d715s @450W / 45s rec | 30m @148W",
       "has_terrain": false
+    },
+    {
+      "id": 129786332,
+      "date": "2026-08-29",
+      "name": "STVZ",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 180,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 129784943,
@@ -3113,6 +3139,19 @@
       "has_terrain": false
     },
     {
+      "id": 129786345,
+      "date": "2026-09-05",
+      "name": "STVZ",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 180,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 129784958,
       "date": "2026-09-07",
       "name": "Aerobico",
@@ -3164,6 +3203,18 @@
       "description_preview": "-60m 160-195w power=3s"
     },
     {
+      "id": 129785755,
+      "date": "2026-09-10",
+      "name": "Durabilidad - W3",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 130,
+      "duration_hours": 2.1,
+      "duration_formatted": "2h6m",
+      "workout_summary": "25m @165W | 19m @255W | 1m @358W | 10m @165W | 12m @268W | 8\u00d715s @450W / 45s rec | 6m @165W | 12m @268W | 8\u00d715s @450W / 45s rec | 25m @148W",
+      "has_terrain": false
+    },
+    {
       "id": 129784977,
       "date": "2026-09-11",
       "name": "Aerobico",
@@ -3177,6 +3228,31 @@
       "description_preview": "-60m 160-195w power=3s"
     },
     {
+      "id": 129786394,
+      "date": "2026-09-12",
+      "name": "STVZ",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 180,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 129785898,
+      "date": "2026-09-15",
+      "name": "Vo2 reducido - W4",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 102,
+      "duration_hours": 2.08,
+      "duration_formatted": "2h5m",
+      "workout_summary": "40m @160W | 12m @248W | 1m @352W | 8m @162W | 3\u00d74m @342W / 4m rec | 40m @145W",
+      "has_terrain": false
+    },
+    {
       "id": 129784929,
       "date": "2026-09-16",
       "name": "GYM",
@@ -3188,12 +3264,37 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "30m"
+    },
+    {
+      "id": 129786136,
+      "date": "2026-09-17",
+      "name": "Durabilidad - Reducido W4",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 2.05,
+      "duration_formatted": "2h3m",
+      "workout_summary": "40m @160W | 12m @248W | 1m @352W | 8m @162W | 8\u00d715s @448W / 45s rec | 6m @162W | 8\u00d715s @448W / 45s rec | 40m @145W",
+      "has_terrain": false
+    },
+    {
+      "id": 129786417,
+      "date": "2026-09-19",
+      "name": "STVZ",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 180,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 16,
+    "success": 10,
+    "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 5,
     "bail_no_match": 6
