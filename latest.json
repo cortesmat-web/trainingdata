@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-21T19:45:32.958944",
+    "last_updated": "2026-08-21T20:17:37.757011",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -588,13 +588,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.95,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 1.02,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -628,7 +628,7 @@
     "p_max": 1480,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-21T19:45:32.957704",
+    "calculation_timestamp": "2026-08-21T20:17:37.755782",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3000,19 +3000,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 129786270,
-      "date": "2026-08-22",
-      "name": "STVZ",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 180,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
     {
       "id": 129784592,
       "date": "2026-08-24",
