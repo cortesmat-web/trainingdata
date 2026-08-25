@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-25T15:13:12.910041",
+    "last_updated": "2026-08-25T15:59:58.866032",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 20.3
+        "value": 23.4
       }
     },
     "signal_summary": {
@@ -191,10 +191,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 53.46,
-      "atl": 33.12,
-      "tsb": 20.34,
-      "ramp_rate": -4.12,
+      "ctl": 52.7,
+      "atl": 29.31,
+      "tsb": 23.39,
+      "ramp_rate": -4.88,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -573,14 +573,13 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-08-20",
-        "2026-08-24",
         "2026-08-25"
       ],
       "completed_dates": [
@@ -605,7 +604,7 @@
           "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": 1.4,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -639,13 +638,13 @@
     "p_max": 1474,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-25T15:13:12.908887",
+    "calculation_timestamp": "2026-08-25T15:59:58.864891",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 18,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2706,6 +2705,19 @@
       "description": "30m"
     },
     {
+      "id": 131643412,
+      "date": "2026-08-26",
+      "name": "z2",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 37,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 40m 5:48-6:15 Pace"
+    },
+    {
       "id": 129784697,
       "date": "2026-08-27",
       "name": "Durabilidad W1",
@@ -2949,12 +2961,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 13,
+    "attempted": 14,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 4,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 3.24,
