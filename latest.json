@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-30T17:27:04.909197",
+    "last_updated": "2026-08-30T19:57:06.489154",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -140,7 +140,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -13.8
+        "value": -3.2
       }
     },
     "signal_summary": {
@@ -223,10 +223,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 62.13,
-      "atl": 75.9,
-      "tsb": -13.77,
-      "ramp_rate": 3.9,
+      "ctl": 59.87,
+      "atl": 63.12,
+      "tsb": -3.25,
+      "ramp_rate": 1.64,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -605,16 +605,15 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 3,
-      "matched_days": 2,
+      "matched_days": 1,
       "planned_dates": [
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27",
-        "2026-08-30"
+        "2026-08-27"
       ],
       "completed_dates": [
         "2026-08-25",
@@ -634,13 +633,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.93,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 1.4,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -674,13 +673,13 @@
     "p_max": 1468,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-30T17:27:04.908042",
+    "calculation_timestamp": "2026-08-30T19:57:06.487850",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 20,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2941,19 +2940,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 129786332,
-      "date": "2026-08-30",
-      "name": "Fondo",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 96,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-180m 170-180w power=3s"
-    },
-    {
       "id": 129784943,
       "date": "2026-08-31",
       "name": "Aerobico",
@@ -3172,12 +3158,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 11,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 6
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 8.38,
