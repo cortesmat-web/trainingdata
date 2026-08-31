@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-31T13:52:13.286090",
+    "last_updated": "2026-08-31T19:46:58.116865",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -110,9 +110,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 51,
-        "baseline_7d": 48.1,
-        "delta_bpm": 2.9
+        "value": 47,
+        "baseline_7d": 47.6,
+        "delta_bpm": -0.6
       },
       "sleep": {
         "status": "green",
@@ -125,8 +125,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.86,
-        "value_yesterday": 0.67
+        "value": 0.92,
+        "value_yesterday": 0.66
       },
       "tsb": {
         "status": "green",
@@ -206,8 +206,8 @@
       "ctl": 58.46,
       "atl": 54.72,
       "tsb": 3.74,
-      "ramp_rate": 1.6,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 0.78,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 292.6,
@@ -250,7 +250,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 51,
+      "resting_hr": 47,
       "hrv": 46.0,
       "sleep_quality": 3,
       "sleep_hours": 8.2,
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1155,
+      "steps": 1764,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -284,14 +284,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.86,
-    "recovery_index_yesterday": 0.67,
+    "recovery_index": 0.92,
+    "recovery_index_yesterday": 0.66,
     "hrv_baseline_7d": 50.7,
-    "rhr_baseline_7d": 48.1,
+    "rhr_baseline_7d": 47.6,
     "hrv_baseline_28d": 56.5,
-    "rhr_baseline_28d": 45.6,
+    "rhr_baseline_28d": 45.5,
     "latest_hrv": 46.0,
-    "latest_rhr": 51,
+    "latest_rhr": 47,
     "acwr": 1.11,
     "acwr_interpretation": "optimal",
     "monotony": 0.91,
@@ -303,7 +303,7 @@
     "multi_sport_detected": true,
     "strain": 401.0,
     "stress_tolerance": 4.4,
-    "load_recovery_ratio": 5.1,
+    "load_recovery_ratio": 4.8,
     "tss_7d_total": 441.0,
     "tss_28d_total": 1588.0,
     "zone_distribution_7d": {
@@ -585,16 +585,15 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27",
-        "2026-08-31"
+        "2026-08-27"
       ],
       "completed_dates": [
         "2026-08-25",
@@ -614,13 +613,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.36,
+          "planned_tss_delta": 0.81,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 1.52,
-          "plan_coverage_current_week": 1.2,
+          "next_week_load": 1.45,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -654,13 +653,13 @@
     "p_max": 1468,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-31T13:52:13.284553",
+    "calculation_timestamp": "2026-08-31T19:46:58.116012",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 19,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2769,7 +2768,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 51,
+      "resting_hr": 47,
       "hrv_rmssd": 46.0,
       "hrv_sdnn": null,
       "sleep_hours": 8.2,
@@ -2795,7 +2794,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1155,
+      "steps": 1764,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2807,19 +2806,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 129784943,
-      "date": "2026-08-31",
-      "name": "Aerobico",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 33,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-60m 160-195w power=3s"
-    },
     {
       "id": 129785089,
       "date": "2026-09-01",
@@ -2865,25 +2851,25 @@
       "name": "Durabilidad - W2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 122,
-      "duration_hours": 2.03,
-      "duration_formatted": "2h2m",
-      "workout_summary": "25m @165W | 19m @255W | 1m @358W | 10m @165W | 12m @268W | 6\u00d715s @450W / 45s rec | 6m @165W | 12m @268W | 6\u00d715s @450W / 45s rec | 25m @148W",
+      "planned_tss": 103,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "30m @165W | 19m @255W | 1m @358W | 8m @165W | 6\u00d715s @448W / 45s rec | 5m @165W | 6\u00d715s @448W / 45s rec | 10m @148W | 35m @175W",
       "has_terrain": false,
-      "description": "- 25m ramp 130-200w power=3s\n- 19m 250-260w power=3s\n- 1m 350-365w power=3s\n- 10m 150-180w power=3s\n\n- 12m 260-275w power=3s\n\n6x\n- 15s 440-460w power=3s\n- 45s 275-290w power=3s\n\n- 6m 150-180w power=3s\n\n- 12m 260-275w power=3s\n\n6x\n- 15s 440-460w power=3s\n- 45s 275-290w power=3s\n\n- 25m 130-165w power=3s"
+      "description": "- 30m ramp 130-200w power=3s\n- 19m 250-260w power=3s\n- 1m 350-365w power=3s\n- 8m 150-180w power=3s\n\n6x\n- 15s 440-455w power=3s\n- 45s 265-280w power=3s\n\n- 5m 150-180w power=3s\n\n6x\n- 15s 440-455w power=3s\n- 45s 265-280w power=3s\n\n- 10m 130-165w power=3s\n\n-35m 170-180w power=3s"
     },
     {
-      "id": 129786345,
-      "date": "2026-09-05",
-      "name": "STVZ",
+      "id": 129784943,
+      "date": "2026-09-04",
+      "name": "Aerobico",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 180,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 33,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "-60m 160-195w power=3s"
     },
     {
       "id": 129784958,
@@ -2942,10 +2928,10 @@
       "name": "Durabilidad - W3",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 130,
-      "duration_hours": 2.1,
-      "duration_formatted": "2h6m",
-      "workout_summary": "25m @165W | 19m @255W | 1m @358W | 10m @165W | 12m @268W | 8\u00d715s @450W / 45s rec | 6m @165W | 12m @268W | 8\u00d715s @450W / 45s rec | 25m @148W",
+      "planned_tss": 107,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "30m @165W | 19m @255W | 1m @358W | 8m @165W | 8\u00d715s @448W / 45s rec | 6m @165W | 8\u00d715s @448W / 45s rec | 40m @148W",
       "has_terrain": false
     },
     {
@@ -3005,10 +2991,10 @@
       "name": "Durabilidad - Reducido W4",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 103,
-      "duration_hours": 2.05,
-      "duration_formatted": "2h3m",
-      "workout_summary": "40m @160W | 12m @248W | 1m @352W | 8m @162W | 8\u00d715s @448W / 45s rec | 6m @162W | 8\u00d715s @448W / 45s rec | 40m @145W",
+      "planned_tss": 86,
+      "duration_hours": 2.07,
+      "duration_formatted": "2h4m",
+      "workout_summary": "30m @160W | 19m @248W | 1m @352W | 8m @162W | 6\u00d715s @442W / 45s rec | 1h @145W",
       "has_terrain": false
     },
     {
@@ -3039,7 +3025,7 @@
     "total_tss": 441,
     "activities_count": 5,
     "avg_hrv": 50.7,
-    "avg_resting_hr": 48.1
+    "avg_resting_hr": 47.6
   },
   "race_calendar": {
     "next_race": null,
