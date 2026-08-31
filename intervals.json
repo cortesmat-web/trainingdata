@@ -1,73 +1,10 @@
 {
-  "generated_at": "2026-08-30T22:23:41.156803",
+  "generated_at": "2026-08-31T00:42:33.088883",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
   "retention_days": 60,
   "activities": [
-    {
-      "activity_id": "i161891301",
-      "date": "2026-07-01",
-      "type": "Ride",
-      "name": "Buenos Aires City Road Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 915,
-          "avg_power": 181,
-          "max_power": 860,
-          "avg_hr": 116,
-          "max_hr": 134,
-          "avg_cadence": 72.82413,
-          "zone": 2,
-          "training_load": 10.210456,
-          "decoupling": 7.72157
-        }
-      ]
-    },
-    {
-      "activity_id": "i161891314",
-      "date": "2026-07-01",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 731,
-          "avg_power": 37,
-          "max_power": 201,
-          "avg_hr": 74,
-          "max_hr": 112,
-          "avg_cadence": 66.54335,
-          "zone": 1,
-          "training_load": 2.0292878,
-          "decoupling": 100.0
-        }
-      ]
-    },
-    {
-      "activity_id": "i161891289",
-      "date": "2026-07-01",
-      "type": "Ride",
-      "name": "San Isidro Road Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 889,
-          "avg_power": 228,
-          "max_power": 712,
-          "avg_hr": 133,
-          "max_hr": 159,
-          "avg_cadence": 80.81427,
-          "zone": 2,
-          "training_load": 17.37091,
-          "decoupling": 8.142438
-        }
-      ]
-    },
     {
       "activity_id": "i162210147",
       "date": "2026-07-02",
