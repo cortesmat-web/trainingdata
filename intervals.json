@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:57:05.142682",
+  "generated_at": "2026-09-02T22:22:04.606305",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -4944,6 +4944,54 @@
           "zone": 1,
           "training_load": 1.632605,
           "decoupling": -27.719519
+        }
+      ]
+    },
+    {
+      "activity_id": "i182633993",
+      "date": "2026-09-02",
+      "type": "Ride",
+      "name": "Aerobico",
+      "interval_summary": [
+        "1x 12s 509w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2427,
+          "avg_power": 178,
+          "max_power": 620,
+          "avg_hr": 123,
+          "max_hr": 150,
+          "avg_cadence": 77.65076,
+          "zone": 2,
+          "training_load": 27.587166,
+          "decoupling": 6.297154
+        },
+        {
+          "type": "WORK",
+          "label": "12s@509w62rpm",
+          "duration_secs": 12,
+          "avg_power": 509,
+          "max_power": 573,
+          "avg_hr": 136,
+          "max_hr": 142,
+          "avg_cadence": 62.166668,
+          "zone": 7,
+          "training_load": 0.33764827,
+          "decoupling": 5.4727316
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1499,
+          "avg_power": 179,
+          "max_power": 924,
+          "avg_hr": 126,
+          "max_hr": 149,
+          "avg_cadence": 66.733826,
+          "zone": 2,
+          "training_load": 18.762276,
+          "decoupling": -9.841804
         }
       ]
     }
