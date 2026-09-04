@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:33:02.101799",
+  "generated_at": "2026-09-04T21:49:09.646552",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -5324,6 +5324,105 @@
           "avg_cadence": 47.256668,
           "zone": 1,
           "training_load": 8.275119
+        }
+      ]
+    },
+    {
+      "activity_id": "i183411351",
+      "date": "2026-09-04",
+      "type": "Ride",
+      "name": "San Isidro Road Cycling",
+      "interval_summary": [
+        "2x 10s 497w",
+        "1x 14s 557w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3549,
+          "avg_power": 164,
+          "max_power": 587,
+          "avg_hr": 113,
+          "max_hr": 146,
+          "avg_cadence": 76.31152,
+          "zone": 1,
+          "training_load": 33.09299,
+          "decoupling": 6.409321
+        },
+        {
+          "type": "WORK",
+          "label": "10s@497w68rpm",
+          "duration_secs": 9,
+          "avg_power": 475,
+          "max_power": 550,
+          "avg_hr": 126,
+          "max_hr": 133,
+          "avg_cadence": 67.22222,
+          "zone": 7,
+          "training_load": 0.19105358,
+          "decoupling": 3.410944
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1858,
+          "avg_power": 185,
+          "max_power": 579,
+          "avg_hr": 119,
+          "max_hr": 159,
+          "avg_cadence": 74.85461,
+          "zone": 2,
+          "training_load": 26.230368,
+          "decoupling": 2.4143863
+        },
+        {
+          "type": "WORK",
+          "label": "10s@497w68rpm",
+          "duration_secs": 10,
+          "avg_power": 519,
+          "max_power": 631,
+          "avg_hr": 134,
+          "max_hr": 139,
+          "avg_cadence": 68.6,
+          "zone": 7,
+          "training_load": 0.27065557,
+          "decoupling": -1.694821
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 433,
+          "avg_power": 190,
+          "max_power": 1083,
+          "avg_hr": 126,
+          "max_hr": 147,
+          "avg_cadence": 71.4157,
+          "zone": 2,
+          "training_load": 6.563462,
+          "decoupling": -3.155928
+        },
+        {
+          "type": "WORK",
+          "label": "14s@557w103rpm",
+          "duration_secs": 14,
+          "avg_power": 557,
+          "max_power": 659,
+          "avg_hr": 144,
+          "max_hr": 150,
+          "avg_cadence": 102.5,
+          "zone": 7,
+          "training_load": 0.47609144,
+          "decoupling": 16.408745
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 694,
+          "avg_power": 139,
+          "max_power": 467,
+          "avg_hr": 117,
+          "max_hr": 160,
+          "avg_cadence": 56.48559,
+          "zone": 1,
+          "training_load": 8.161743,
+          "decoupling": -8.535088
         }
       ]
     }
