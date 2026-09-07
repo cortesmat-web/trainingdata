@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T20:58:03.557617",
+  "generated_at": "2026-09-07T23:18:37.544629",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -5292,6 +5292,39 @@
           "zone": 1,
           "training_load": 8.8004465,
           "decoupling": -6.080967
+        }
+      ]
+    },
+    {
+      "activity_id": "i184371096",
+      "date": "2026-09-07",
+      "type": "Ride",
+      "name": "Aerobico",
+      "interval_summary": [
+        "1x 1h 165w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3601s@165w74rpm",
+          "duration_secs": 3601,
+          "avg_power": 165,
+          "max_power": 558,
+          "avg_hr": 110,
+          "max_hr": 140,
+          "avg_cadence": 74.32416,
+          "zone": 1,
+          "training_load": 36.398247,
+          "decoupling": -5.6962047
+        },
+        {
+          "type": "WORK",
+          "duration_secs": 4,
+          "avg_hr": 77,
+          "max_hr": 80,
+          "zone": 1,
+          "training_load": 0.0009723668,
+          "decoupling": "NaN"
         }
       ]
     }
