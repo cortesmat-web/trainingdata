@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:50:18.006731",
+  "generated_at": "2026-09-10T22:52:44.214211",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -5420,6 +5420,79 @@
           "zone": 1,
           "training_load": 8.311654,
           "decoupling": 8.094574
+        }
+      ]
+    },
+    {
+      "activity_id": "i185407651",
+      "date": "2026-09-10",
+      "type": "Ride",
+      "name": "Durabilidad - W3 (HR)",
+      "interval_summary": [
+        "1x 26m42s 114bpm",
+        "1x 19m 129bpm",
+        "1x 60s 133bpm",
+        "1x 10m 124bpm",
+        "1x 12m 143bpm",
+        "1x 2s 127bpm",
+        "1x 50m54s 124bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1602s@114bpm",
+          "duration_secs": 1602,
+          "avg_hr": 114,
+          "max_hr": 150,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1140s@129bpm",
+          "duration_secs": 1140,
+          "avg_hr": 129,
+          "max_hr": 153,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "60s@133bpm",
+          "duration_secs": 60,
+          "avg_hr": 133,
+          "max_hr": 143,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "600s@124bpm",
+          "duration_secs": 600,
+          "avg_hr": 124,
+          "max_hr": 143,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "720s@143bpm",
+          "duration_secs": 720,
+          "avg_hr": 143,
+          "max_hr": 163,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "2s@127bpm",
+          "duration_secs": 2,
+          "avg_hr": 127,
+          "max_hr": 128,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "3054s@124bpm",
+          "duration_secs": 3054,
+          "avg_hr": 124,
+          "max_hr": 172,
+          "zone": 2
         }
       ]
     }
