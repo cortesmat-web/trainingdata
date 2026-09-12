@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-12T16:01:27.627177",
+    "last_updated": "2026-09-12T18:20:45.467565",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -205,13 +205,13 @@
       "atl": 52.34,
       "tsb": 7.42,
       "ramp_rate": -0.82,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 292.4,
-      "w_prime": 23738,
+      "eftp": 292.1,
+      "w_prime": 23714,
       "w_prime_kj": 23.7,
-      "p_max": 1467,
+      "p_max": 1465,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -576,23 +576,22 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 310,
-          "w_prime_used": 23738,
+          "w_prime_used": 23714,
           "ftp_staleness_days": 117,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.75,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 4,
       "matched_days": 3,
       "planned_dates": [
         "2026-09-07",
         "2026-09-08",
-        "2026-09-10",
-        "2026-09-12"
+        "2026-09-10"
       ],
       "completed_dates": [
         "2026-09-06",
@@ -613,13 +612,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.54,
+          "planned_tss_delta": 1.72,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": 1.0,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
@@ -647,19 +646,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 292.4,
-    "w_prime": 23738,
+    "eftp": 292.1,
+    "w_prime": 23714,
     "w_prime_kj": 23.7,
-    "p_max": 1467,
+    "p_max": 1465,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-12T16:01:27.625922",
+    "calculation_timestamp": "2026-09-12T18:20:45.466345",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 19,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2901,25 +2900,12 @@
   ],
   "planned_workouts": [
     {
-      "id": 129786394,
-      "date": "2026-09-12",
-      "name": "Fondito",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 200,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
       "id": 129784965,
       "date": "2026-09-13",
       "name": "Aerobico",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 66,
+      "planned_tss": 180,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
