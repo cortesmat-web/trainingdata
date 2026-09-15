@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:58:22.330428",
+  "generated_at": "2026-09-15T21:56:50.839382",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -4945,6 +4945,118 @@
           "avg_hr": 124,
           "max_hr": 172,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i187109453",
+      "date": "2026-09-15",
+      "type": "Ride",
+      "name": "Vo2 reducido - W4",
+      "interval_summary": [
+        "1x 32m7s 123bpm",
+        "1x 12m1s 143bpm",
+        "1x 60s 160bpm",
+        "1x 8m 125bpm",
+        "3x 4m 157bpm",
+        "3x 4m 117bpm",
+        "1x 27m12s 101bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1927s@123bpm",
+          "duration_secs": 1927,
+          "avg_hr": 123,
+          "max_hr": 168,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "721s@143bpm",
+          "duration_secs": 721,
+          "avg_hr": 143,
+          "max_hr": 155,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "60s@160bpm",
+          "duration_secs": 60,
+          "avg_hr": 160,
+          "max_hr": 172,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "480s@125bpm",
+          "duration_secs": 480,
+          "avg_hr": 125,
+          "max_hr": 171,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "240s@157bpm",
+          "duration_secs": 240,
+          "avg_hr": 161,
+          "max_hr": 172,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "240s@117bpm",
+          "duration_secs": 240,
+          "avg_hr": 123,
+          "max_hr": 169,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "240s@157bpm",
+          "duration_secs": 240,
+          "avg_hr": 156,
+          "max_hr": 166,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "240s@117bpm",
+          "duration_secs": 240,
+          "avg_hr": 120,
+          "max_hr": 162,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "240s@157bpm",
+          "duration_secs": 240,
+          "avg_hr": 155,
+          "max_hr": 166,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "240s@117bpm",
+          "duration_secs": 240,
+          "avg_hr": 109,
+          "max_hr": 158,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1632s@101bpm",
+          "duration_secs": 1632,
+          "avg_hr": 101,
+          "max_hr": 131,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 94,
+          "max_hr": 94,
+          "zone": 1
         }
       ]
     }
