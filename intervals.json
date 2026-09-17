@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:59:43.431943",
+  "generated_at": "2026-09-17T22:45:06.577644",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -4997,6 +4997,41 @@
           "avg_hr": 94,
           "max_hr": 94,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i187779932",
+      "date": "2026-09-17",
+      "type": "Ride",
+      "name": "Durabilidad - Reducido W4",
+      "interval_summary": [
+        "1x 42m35s 115bpm",
+        "1x 53m42s 123bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2555s@115bpm",
+          "duration_secs": 2555,
+          "avg_hr": 115,
+          "max_hr": 163,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 130,
+          "max_hr": 130,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "3222s@123bpm",
+          "duration_secs": 3222,
+          "avg_hr": 123,
+          "max_hr": 159,
+          "zone": 2
         }
       ]
     }
