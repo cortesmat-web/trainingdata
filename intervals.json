@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:12:16.756845",
+  "generated_at": "2026-09-30T20:48:39.514775",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -4043,6 +4043,80 @@
           "zone": 2,
           "training_load": 10.83166,
           "decoupling": 10.08558
+        }
+      ]
+    },
+    {
+      "activity_id": "i191970096",
+      "date": "2026-09-30",
+      "type": "Ride",
+      "name": "San Isidro Road Cycling",
+      "interval_summary": [
+        "1x 13m36s 210w",
+        "1x 3m46s 318w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3178,
+          "avg_power": 186,
+          "max_power": 942,
+          "avg_hr": 119,
+          "max_hr": 158,
+          "avg_cadence": 74.821884,
+          "zone": 2,
+          "training_load": 49.594166,
+          "decoupling": 3.7866366
+        },
+        {
+          "type": "WORK",
+          "label": "816s@210w86rpm",
+          "duration_secs": 816,
+          "avg_power": 210,
+          "max_power": 355,
+          "avg_hr": 125,
+          "max_hr": 139,
+          "avg_cadence": 85.75706,
+          "zone": 2,
+          "training_load": 11.533808,
+          "decoupling": -0.12719013
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 313,
+          "avg_power": 77,
+          "max_power": 548,
+          "avg_hr": 94,
+          "max_hr": 133,
+          "avg_cadence": 36.67412,
+          "zone": 1,
+          "training_load": 1.4615362,
+          "decoupling": -80.05948
+        },
+        {
+          "type": "WORK",
+          "label": "226s@318w91rpm",
+          "duration_secs": 226,
+          "avg_power": 318,
+          "max_power": 423,
+          "avg_hr": 149,
+          "max_hr": 163,
+          "avg_cadence": 90.95575,
+          "zone": 5,
+          "training_load": 7.232279,
+          "decoupling": 10.440055
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1333,
+          "avg_power": 112,
+          "max_power": 485,
+          "avg_hr": 111,
+          "max_hr": 162,
+          "avg_cadence": 49.021362,
+          "zone": 1,
+          "training_load": 9.439452,
+          "decoupling": 10.721774
         }
       ]
     }
