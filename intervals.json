@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:43:27.310091",
+  "generated_at": "2026-10-05T00:11:12.849156",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
@@ -3981,6 +3981,24 @@
           "max_hr": 110,
           "zone": 1,
           "decoupling": "NaN"
+        }
+      ]
+    },
+    {
+      "activity_id": "i193594920",
+      "date": "2026-10-04",
+      "type": "Ride",
+      "name": "Vicente L\u00f3pez Road Cycling",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 448,
+          "avg_power": 87,
+          "max_power": 400,
+          "avg_cadence": 38.289413,
+          "zone": 1,
+          "training_load": 1.6183308
         }
       ]
     }
