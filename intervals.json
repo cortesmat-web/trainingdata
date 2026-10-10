@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-10-09T23:45:12.239330",
+  "generated_at": "2026-10-10T02:47:33.543152",
   "version": "3.112",
   "script_hash": "5b85d9c9b9b5",
   "scan_hours": 168,
   "retention_days": 60,
   "activities": [
-    {
-      "activity_id": "i174519954",
-      "date": "2026-08-10",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3684,
-          "avg_power": 101,
-          "max_power": 244,
-          "avg_hr": 93,
-          "max_hr": 112,
-          "avg_cadence": 80.29721,
-          "zone": 1,
-          "training_load": 12.191616,
-          "decoupling": 8.610564
-        }
-      ]
-    },
     {
       "activity_id": "i174833080",
       "date": "2026-08-11",
